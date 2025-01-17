@@ -80,10 +80,10 @@ with rewiringamerica_rem.ApiClient(configuration) as api_client:
     try:
         # Get Home Profile
         api_response = api_instance.get_home_profile(address)
-        print("The response of BuildingProfilerApi->get_home_profile:\n")
+        print("The response of get_home_profile:\n")
         pprint(api_response)
     except ApiException as e:
-        print("Exception when calling BuildingProfilerApi->get_home_profile: %s\n" % e)
+        print("Exception when calling get_home_profile: %s\n" % e)
 
 ```
 

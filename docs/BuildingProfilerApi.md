@@ -23,7 +23,6 @@ import rewiringamerica_rem
 from rewiringamerica_rem.models.building_profile import BuildingProfile
 from rewiringamerica_rem.rest import ApiException
 from pprint import pprint
-import os
 
 # The client must configure the authentication and authorization parameters
 # in accordance with the API server security policy.
