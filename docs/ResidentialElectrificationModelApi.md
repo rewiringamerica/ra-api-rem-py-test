@@ -28,8 +28,6 @@ from rewiringamerica_rem.models.supported_upgrade import SupportedUpgrade
 from rewiringamerica_rem.rest import ApiException
 from pprint import pprint
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
 
 # Configure Bearer authorization: auth
 configuration = rewiringamerica_rem.Configuration(
@@ -104,8 +102,6 @@ from rewiringamerica_rem.models.savings import Savings
 from rewiringamerica_rem.rest import ApiException
 from pprint import pprint
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
 
 # Configure Bearer authorization: auth
 configuration = rewiringamerica_rem.Configuration(
@@ -174,8 +170,6 @@ import rewiringamerica_rem
 from rewiringamerica_rem.rest import ApiException
 from pprint import pprint
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
 
 # Configure Bearer authorization: auth
 configuration = rewiringamerica_rem.Configuration(

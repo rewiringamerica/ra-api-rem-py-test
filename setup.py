@@ -3,7 +3,7 @@
 """
     Residential Electrification Model API
 
-    An API for REM, the Residential Electrification Model.         The other Rewiring America APIs and methodology for REM are [here](https://api.rewiringamerica.org/).
+    An API for REM, the Residential Electrification Model.
 
     The version of the OpenAPI document: 0.1.0
     Contact: datascience@rewiringamerica.org
@@ -45,7 +45,7 @@ setup(
     license="Apache 2.0",
     long_description_content_type='text/markdown',
     long_description="""\
-    An API for REM, the Residential Electrification Model.         The other Rewiring America APIs and methodology for REM are [here](https://api.rewiringamerica.org/).
+    An API for REM, the Residential Electrification Model.
     """,  # noqa: E501
     package_data={"rewiringamerica_rem": ["py.typed"]},
 )

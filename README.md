@@ -1,6 +1,5 @@
 # rewiringamerica-rem
 An API for REM, the Residential Electrification Model.
-        The other Rewiring America APIs and methodology for REM are [here](https://api.rewiringamerica.org/).
 
 Rewiring America's other APIs can be found [at our main API site](https://api.rewiringamerica.org/).
 
@@ -53,7 +52,8 @@ Execute `pytest` to run the tests.
 
 ## Getting Started
 
-Please follow the [installation procedure](#installation--usage) and then run the following:
+[Sign up for an API key](https://homes.rewiringamerica.org/api/developer-login) and follow the [installation procedure](#installation--usage).
+Then, run the following:
 
 ```python
 
@@ -62,8 +62,6 @@ from rewiringamerica_rem.rest import ApiException
 from pprint import pprint
 import os
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
 
 # Configure Bearer authorization: auth
 configuration = rewiringamerica_rem.Configuration(

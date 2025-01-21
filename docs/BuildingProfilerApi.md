@@ -24,8 +24,6 @@ from rewiringamerica_rem.models.building_profile import BuildingProfile
 from rewiringamerica_rem.rest import ApiException
 from pprint import pprint
 
-# The client must configure the authentication and authorization parameters
-# in accordance with the API server security policy.
 
 # Configure Bearer authorization: auth
 configuration = rewiringamerica_rem.Configuration(
