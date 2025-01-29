@@ -15,7 +15,7 @@
 """  # noqa: E501
 
 
-__version__ = "0.3.3"
+__version__ = "0.3.4"
 
 # import apis into sdk package
 from rewiringamerica_rem.api.building_profiler_api import BuildingProfilerApi
