@@ -4,7 +4,7 @@
 """
     Residential Electrification Model API
 
-    An API for REM, the Residential Electrification Model.
+    An API for REM, the Residential Electrification Model.         The other Rewiring America APIs and methodology for REM are [here](https://api.rewiringamerica.org/).
 
     The version of the OpenAPI document: 0.1.0
     Contact: datascience@rewiringamerica.org

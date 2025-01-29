@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "rewiringamerica_rem"
-version = "0.3.0"
+version = "0.3.4"
 description = "Residential Electrification Model API"
 authors = ["Rewiring America <datascience@rewiringamerica.org>"]
 license = "Apache 2.0"
@@ -12,7 +12,7 @@ include = ["rewiringamerica_rem/py.typed"]
 [tool.poetry.dependencies]
 python = "^3.8"
 
-urllib3 = ">= 1.25.3 < 3.0.0"
+urllib3 = ">= 1.25.3, < 3.0.0"
 python-dateutil = ">= 2.8.2"
 pydantic = ">= 2"
 typing-extensions = ">= 4.7.1"
